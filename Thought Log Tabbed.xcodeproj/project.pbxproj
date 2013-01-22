@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BBAC50DE16AE14E700EAB58A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBAC50DD16AE14E700EAB58A /* UIKit.framework */; };
+		BBAC50E016AE14E700EAB58A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBAC50DF16AE14E700EAB58A /* Foundation.framework */; };
+		BBAC50E216AE14E700EAB58A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBAC50E116AE14E700EAB58A /* CoreGraphics.framework */; };
+		BBAC50E816AE14E700EAB58A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BBAC50E616AE14E700EAB58A /* InfoPlist.strings */; };
+		BBAC50EA16AE14E700EAB58A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BBAC50E916AE14E700EAB58A /* main.m */; };
+		BBAC50EE16AE14E700EAB58A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BBAC50ED16AE14E700EAB58A /* AppDelegate.m */; };
+		BBAC50F016AE14E700EAB58A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BBAC50EF16AE14E700EAB58A /* Default.png */; };
+		BBAC50F216AE14E700EAB58A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BBAC50F116AE14E700EAB58A /* Default@2x.png */; };
+		BBAC50F416AE14E700EAB58A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BBAC50F316AE14E700EAB58A /* Default-568h@2x.png */; };
+		BBAC50F716AE14E700EAB58A /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBAC50F516AE14E700EAB58A /* MainStoryboard.storyboard */; };
+		BBAC50FA16AE14E700EAB58A /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBAC50F916AE14E700EAB58A /* FirstViewController.m */; };
+		BBAC50FC16AE14E700EAB58A /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = BBAC50FB16AE14E700EAB58A /* first.png */; };
+		BBAC50FE16AE14E700EAB58A /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BBAC50FD16AE14E700EAB58A /* first@2x.png */; };
+		BBAC510116AE14E700EAB58A /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBAC510016AE14E700EAB58A /* SecondViewController.m */; };
+		BBAC510316AE14E700EAB58A /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = BBAC510216AE14E700EAB58A /* second.png */; };
+		BBAC510516AE14E700EAB58A /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BBAC510416AE14E700EAB58A /* second@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BBAC50D916AE14E700EAB58A /* Thought Log Tabbed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Thought Log Tabbed.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBAC50DD16AE14E700EAB58A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BBAC50DF16AE14E700EAB58A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BBAC50E116AE14E700EAB58A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BBAC50E516AE14E700EAB58A /* Thought Log Tabbed-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Thought Log Tabbed-Info.plist"; sourceTree = "<group>"; };
+		BBAC50E716AE14E700EAB58A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BBAC50E916AE14E700EAB58A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BBAC50EB16AE14E700EAB58A /* Thought Log Tabbed-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Thought Log Tabbed-Prefix.pch"; sourceTree = "<group>"; };
+		BBAC50EC16AE14E700EAB58A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BBAC50ED16AE14E700EAB58A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BBAC50EF16AE14E700EAB58A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		BBAC50F116AE14E700EAB58A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		BBAC50F316AE14E700EAB58A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		BBAC50F616AE14E700EAB58A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		BBAC50F816AE14E700EAB58A /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		BBAC50F916AE14E700EAB58A /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		BBAC50FB16AE14E700EAB58A /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		BBAC50FD16AE14E700EAB58A /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		BBAC50FF16AE14E700EAB58A /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		BBAC510016AE14E700EAB58A /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		BBAC510216AE14E700EAB58A /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		BBAC510416AE14E700EAB58A /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BBAC50D616AE14E700EAB58A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBAC50DE16AE14E700EAB58A /* UIKit.framework in Frameworks */,
+				BBAC50E016AE14E700EAB58A /* Foundation.framework in Frameworks */,
+				BBAC50E216AE14E700EAB58A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BBAC50CE16AE14E700EAB58A = {
+			isa = PBXGroup;
+			children = (
+				BBAC50E316AE14E700EAB58A /* Thought Log Tabbed */,
+				BBAC50DC16AE14E700EAB58A /* Frameworks */,
+				BBAC50DA16AE14E700EAB58A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BBAC50DA16AE14E700EAB58A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBAC50D916AE14E700EAB58A /* Thought Log Tabbed.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBAC50DC16AE14E700EAB58A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BBAC50DD16AE14E700EAB58A /* UIKit.framework */,
+				BBAC50DF16AE14E700EAB58A /* Foundation.framework */,
+				BBAC50E116AE14E700EAB58A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BBAC50E316AE14E700EAB58A /* Thought Log Tabbed */ = {
+			isa = PBXGroup;
+			children = (
+				BBAC50EC16AE14E700EAB58A /* AppDelegate.h */,
+				BBAC50ED16AE14E700EAB58A /* AppDelegate.m */,
+				BBAC50F516AE14E700EAB58A /* MainStoryboard.storyboard */,
+				BBAC50F816AE14E700EAB58A /* FirstViewController.h */,
+				BBAC50F916AE14E700EAB58A /* FirstViewController.m */,
+				BBAC50FB16AE14E700EAB58A /* first.png */,
+				BBAC50FD16AE14E700EAB58A /* first@2x.png */,
+				BBAC50FF16AE14E700EAB58A /* SecondViewController.h */,
+				BBAC510016AE14E700EAB58A /* SecondViewController.m */,
+				BBAC510216AE14E700EAB58A /* second.png */,
+				BBAC510416AE14E700EAB58A /* second@2x.png */,
+				BBAC50E416AE14E700EAB58A /* Supporting Files */,
+			);
+			path = "Thought Log Tabbed";
+			sourceTree = "<group>";
+		};
+		BBAC50E416AE14E700EAB58A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BBAC50E516AE14E700EAB58A /* Thought Log Tabbed-Info.plist */,
+				BBAC50E616AE14E700EAB58A /* InfoPlist.strings */,
+				BBAC50E916AE14E700EAB58A /* main.m */,
+				BBAC50EB16AE14E700EAB58A /* Thought Log Tabbed-Prefix.pch */,
+				BBAC50EF16AE14E700EAB58A /* Default.png */,
+				BBAC50F116AE14E700EAB58A /* Default@2x.png */,
+				BBAC50F316AE14E700EAB58A /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BBAC50D816AE14E700EAB58A /* Thought Log Tabbed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBAC510816AE14E700EAB58A /* Build configuration list for PBXNativeTarget "Thought Log Tabbed" */;
+			buildPhases = (
+				BBAC50D516AE14E700EAB58A /* Sources */,
+				BBAC50D616AE14E700EAB58A /* Frameworks */,
+				BBAC50D716AE14E700EAB58A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Thought Log Tabbed";
+			productName = "Thought Log Tabbed";
+			productReference = BBAC50D916AE14E700EAB58A /* Thought Log Tabbed.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BBAC50D016AE14E700EAB58A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Gian Lazzarini";
+			};
+			buildConfigurationList = BBAC50D316AE14E700EAB58A /* Build configuration list for PBXProject "Thought Log Tabbed" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BBAC50CE16AE14E700EAB58A;
+			productRefGroup = BBAC50DA16AE14E700EAB58A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BBAC50D816AE14E700EAB58A /* Thought Log Tabbed */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BBAC50D716AE14E700EAB58A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBAC50E816AE14E700EAB58A /* InfoPlist.strings in Resources */,
+				BBAC50F016AE14E700EAB58A /* Default.png in Resources */,
+				BBAC50F216AE14E700EAB58A /* Default@2x.png in Resources */,
+				BBAC50F416AE14E700EAB58A /* Default-568h@2x.png in Resources */,
+				BBAC50F716AE14E700EAB58A /* MainStoryboard.storyboard in Resources */,
+				BBAC50FC16AE14E700EAB58A /* first.png in Resources */,
+				BBAC50FE16AE14E700EAB58A /* first@2x.png in Resources */,
+				BBAC510316AE14E700EAB58A /* second.png in Resources */,
+				BBAC510516AE14E700EAB58A /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BBAC50D516AE14E700EAB58A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBAC50EA16AE14E700EAB58A /* main.m in Sources */,
+				BBAC50EE16AE14E700EAB58A /* AppDelegate.m in Sources */,
+				BBAC50FA16AE14E700EAB58A /* FirstViewController.m in Sources */,
+				BBAC510116AE14E700EAB58A /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BBAC50E616AE14E700EAB58A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBAC50E716AE14E700EAB58A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BBAC50F516AE14E700EAB58A /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBAC50F616AE14E700EAB58A /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BBAC510616AE14E700EAB58A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BBAC510716AE14E700EAB58A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BBAC510916AE14E700EAB58A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Thought Log Tabbed/Thought Log Tabbed-Prefix.pch";
+				INFOPLIST_FILE = "Thought Log Tabbed/Thought Log Tabbed-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BBAC510A16AE14E700EAB58A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Thought Log Tabbed/Thought Log Tabbed-Prefix.pch";
+				INFOPLIST_FILE = "Thought Log Tabbed/Thought Log Tabbed-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BBAC50D316AE14E700EAB58A /* Build configuration list for PBXProject "Thought Log Tabbed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBAC510616AE14E700EAB58A /* Debug */,
+				BBAC510716AE14E700EAB58A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBAC510816AE14E700EAB58A /* Build configuration list for PBXNativeTarget "Thought Log Tabbed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBAC510916AE14E700EAB58A /* Debug */,
+				BBAC510A16AE14E700EAB58A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BBAC50D016AE14E700EAB58A /* Project object */;
+}
