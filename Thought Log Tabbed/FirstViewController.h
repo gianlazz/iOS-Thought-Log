@@ -9,5 +9,15 @@
 #import <UIKit/UIKit.h>
 
 @interface FirstViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UITextField *name;
+@property (weak, nonatomic) IBOutlet UITextField *situation;
+@property (weak, nonatomic) IBOutlet UITextField *emotions;
+@property (weak, nonatomic) IBOutlet UITextField *thoughts;
+@property (weak, nonatomic) IBOutlet UITextField *behavior;
+@property (weak, nonatomic) IBOutlet UITextField *distortions;
+@property (weak, nonatomic) IBOutlet UITextField *alternativebehavior;
+@property (weak, nonatomic) IBOutlet UITextField *alternativethoughts;
+- (IBAction)saveinfo:(id)sender;
+- (IBAction)retractKeyBoard:(id)sender;
 
 @end

@@ -23,17 +23,18 @@
 		BBAC510116AE14E700EAB58A /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBAC510016AE14E700EAB58A /* SecondViewController.m */; };
 		BBAC510316AE14E700EAB58A /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = BBAC510216AE14E700EAB58A /* second.png */; };
 		BBAC510516AE14E700EAB58A /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BBAC510416AE14E700EAB58A /* second@2x.png */; };
+		BBD7923D16AE171400774CA8 /* wood.png in Resources */ = {isa = PBXBuildFile; fileRef = BBD7923C16AE171400774CA8 /* wood.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BBAC50D916AE14E700EAB58A /* Thought Log Tabbed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Thought Log Tabbed.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBAC50D916AE14E700EAB58A /* Thought Log.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Thought Log.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBAC50DD16AE14E700EAB58A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BBAC50DF16AE14E700EAB58A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BBAC50E116AE14E700EAB58A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		BBAC50E516AE14E700EAB58A /* Thought Log Tabbed-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Thought Log Tabbed-Info.plist"; sourceTree = "<group>"; };
+		BBAC50E516AE14E700EAB58A /* Thought Log-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Thought Log-Info.plist"; sourceTree = "<group>"; };
 		BBAC50E716AE14E700EAB58A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BBAC50E916AE14E700EAB58A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		BBAC50EB16AE14E700EAB58A /* Thought Log Tabbed-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Thought Log Tabbed-Prefix.pch"; sourceTree = "<group>"; };
+		BBAC50EB16AE14E700EAB58A /* Thought Log-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Thought Log-Prefix.pch"; sourceTree = "<group>"; };
 		BBAC50EC16AE14E700EAB58A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BBAC50ED16AE14E700EAB58A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		BBAC50EF16AE14E700EAB58A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -48,6 +49,7 @@
 		BBAC510016AE14E700EAB58A /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		BBAC510216AE14E700EAB58A /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		BBAC510416AE14E700EAB58A /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		BBD7923C16AE171400774CA8 /* wood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wood.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +69,7 @@
 		BBAC50CE16AE14E700EAB58A = {
 			isa = PBXGroup;
 			children = (
-				BBAC50E316AE14E700EAB58A /* Thought Log Tabbed */,
+				BBAC50E316AE14E700EAB58A /* Thought Log */,
 				BBAC50DC16AE14E700EAB58A /* Frameworks */,
 				BBAC50DA16AE14E700EAB58A /* Products */,
 			);
@@ -76,7 +78,7 @@
 		BBAC50DA16AE14E700EAB58A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BBAC50D916AE14E700EAB58A /* Thought Log Tabbed.app */,
+				BBAC50D916AE14E700EAB58A /* Thought Log.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -91,7 +93,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BBAC50E316AE14E700EAB58A /* Thought Log Tabbed */ = {
+		BBAC50E316AE14E700EAB58A /* Thought Log */ = {
 			isa = PBXGroup;
 			children = (
 				BBAC50EC16AE14E700EAB58A /* AppDelegate.h */,
@@ -107,19 +109,21 @@
 				BBAC510416AE14E700EAB58A /* second@2x.png */,
 				BBAC50E416AE14E700EAB58A /* Supporting Files */,
 			);
+			name = "Thought Log";
 			path = "Thought Log Tabbed";
 			sourceTree = "<group>";
 		};
 		BBAC50E416AE14E700EAB58A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				BBAC50E516AE14E700EAB58A /* Thought Log Tabbed-Info.plist */,
+				BBAC50E516AE14E700EAB58A /* Thought Log-Info.plist */,
 				BBAC50E616AE14E700EAB58A /* InfoPlist.strings */,
 				BBAC50E916AE14E700EAB58A /* main.m */,
-				BBAC50EB16AE14E700EAB58A /* Thought Log Tabbed-Prefix.pch */,
+				BBAC50EB16AE14E700EAB58A /* Thought Log-Prefix.pch */,
 				BBAC50EF16AE14E700EAB58A /* Default.png */,
 				BBAC50F116AE14E700EAB58A /* Default@2x.png */,
 				BBAC50F316AE14E700EAB58A /* Default-568h@2x.png */,
+				BBD7923C16AE171400774CA8 /* wood.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -127,9 +131,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BBAC50D816AE14E700EAB58A /* Thought Log Tabbed */ = {
+		BBAC50D816AE14E700EAB58A /* Thought Log */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BBAC510816AE14E700EAB58A /* Build configuration list for PBXNativeTarget "Thought Log Tabbed" */;
+			buildConfigurationList = BBAC510816AE14E700EAB58A /* Build configuration list for PBXNativeTarget "Thought Log" */;
 			buildPhases = (
 				BBAC50D516AE14E700EAB58A /* Sources */,
 				BBAC50D616AE14E700EAB58A /* Frameworks */,
@@ -139,9 +143,9 @@
 			);
 			dependencies = (
 			);
-			name = "Thought Log Tabbed";
+			name = "Thought Log";
 			productName = "Thought Log Tabbed";
-			productReference = BBAC50D916AE14E700EAB58A /* Thought Log Tabbed.app */;
+			productReference = BBAC50D916AE14E700EAB58A /* Thought Log.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -153,7 +157,7 @@
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = "Gian Lazzarini";
 			};
-			buildConfigurationList = BBAC50D316AE14E700EAB58A /* Build configuration list for PBXProject "Thought Log Tabbed" */;
+			buildConfigurationList = BBAC50D316AE14E700EAB58A /* Build configuration list for PBXProject "Thought Log" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -165,7 +169,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BBAC50D816AE14E700EAB58A /* Thought Log Tabbed */,
+				BBAC50D816AE14E700EAB58A /* Thought Log */,
 			);
 		};
 /* End PBXProject section */
@@ -184,6 +188,7 @@
 				BBAC50FE16AE14E700EAB58A /* first@2x.png in Resources */,
 				BBAC510316AE14E700EAB58A /* second.png in Resources */,
 				BBAC510516AE14E700EAB58A /* second@2x.png in Resources */,
+				BBD7923D16AE171400774CA8 /* wood.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,9 +282,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Thought Log Tabbed/Thought Log Tabbed-Prefix.pch";
-				INFOPLIST_FILE = "Thought Log Tabbed/Thought Log Tabbed-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Thought Log Tabbed/Thought Log-Prefix.pch";
+				INFOPLIST_FILE = "Thought Log Tabbed/Thought Log-Info.plist";
+				PRODUCT_NAME = "Thought Log";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -288,9 +293,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Thought Log Tabbed/Thought Log Tabbed-Prefix.pch";
-				INFOPLIST_FILE = "Thought Log Tabbed/Thought Log Tabbed-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Thought Log Tabbed/Thought Log-Prefix.pch";
+				INFOPLIST_FILE = "Thought Log Tabbed/Thought Log-Info.plist";
+				PRODUCT_NAME = "Thought Log";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -298,7 +303,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BBAC50D316AE14E700EAB58A /* Build configuration list for PBXProject "Thought Log Tabbed" */ = {
+		BBAC50D316AE14E700EAB58A /* Build configuration list for PBXProject "Thought Log" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BBAC510616AE14E700EAB58A /* Debug */,
@@ -307,13 +312,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BBAC510816AE14E700EAB58A /* Build configuration list for PBXNativeTarget "Thought Log Tabbed" */ = {
+		BBAC510816AE14E700EAB58A /* Build configuration list for PBXNativeTarget "Thought Log" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BBAC510916AE14E700EAB58A /* Debug */,
 				BBAC510A16AE14E700EAB58A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
