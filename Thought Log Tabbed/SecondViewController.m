@@ -12,21 +12,7 @@
 
 @end
 
-@implementation SecondViewController;
-@synthesize resultview;
-
-- (IBAction)retrieveinfo:(id)sender {
-    NSString *docPath =[NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES)objectAtIndex:0];
-    //_resultview.text = docPath;
-    NSString *logs=[docPath stringByAppendingPathComponent:@"log.txt"];
-    if([[NSFileManager defaultManager] fileExistsAtPath:logs])
-    {
-        NSFileHandle *fileHandle = [NSFileHandle fileHandleForReadingAtPath:logs];
-        NSString *logResults=[[NSString alloc]initWithData:[fileHandle availableData] encoding:NSUTF8StringEncoding];
-        [fileHandle closeFile];
-        self.resultview.text=logResults;
-    }
-}
+@implementation SecondViewController
 
 - (void)viewDidLoad
 {

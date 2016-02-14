@@ -9,7 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface SecondViewController : UIViewController
-- (IBAction)retrieveinfo:(id)sender;
-@property (weak, nonatomic) IBOutlet UITextView *resultview;
 
 @end

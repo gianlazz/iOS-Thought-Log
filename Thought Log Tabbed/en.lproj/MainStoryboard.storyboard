@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="6250" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" variant="6xAndEarlier" propertyAccessControl="none" useAutolayout="YES" promptedForUpgradeToXcode5="NO" initialViewController="4">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2837" systemVersion="12A269" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="4">
     <dependencies>
-        <deployment identifier="iOS"/>
-        <development version="4600" identifier="xcode"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1921"/>
     </dependencies>
     <scenes>
-        <!--First-->
+        <!--class Prefix:identifier First View Controller - First-->
         <scene sceneID="11">
             <objects>
                 <viewController title="First" id="2" customClass="FirstViewController" sceneMemberID="viewController">
@@ -14,233 +12,38 @@
                         <rect key="frame" x="0.0" y="20" width="320" height="499"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="wood.png" translatesAutoresizingMaskIntoConstraints="NO" id="CKt-cC-hEc">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="499"/>
-                            </imageView>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Thought Entry" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" useAutomaticPreferredMaxLayoutWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="20">
-                                <rect key="frame" x="20" y="4" width="280" height="25"/>
-                                <fontDescription key="fontDescription" name="AmericanTypewriter-CondensedLight" family="American Typewriter" pointSize="23"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="First View" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="20">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Name:" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="t8y-ZT-Fta">
-                                <rect key="frame" x="20" y="33" width="280" height="30"/>
-                                <color key="backgroundColor" red="0.015686275437474251" green="0.011764707043766975" blue="0.011764707043766975" alpha="0.59999999999999998" colorSpace="deviceRGB"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" name="AmericanTypewriter-Condensed" family="American Typewriter" pointSize="15"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                <connections>
-                                    <action selector="retractKeyBoard:" destination="2" eventType="editingDidEndOnExit" id="NpF-nR-3ll"/>
-                                </connections>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Situation:" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KdB-ue-hUx">
-                                <rect key="frame" x="20" y="71" width="280" height="30"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.59999999999999998" colorSpace="calibratedWhite"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" name="AmericanTypewriter-Condensed" family="American Typewriter" pointSize="15"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                <connections>
-                                    <action selector="retractKeyBoard:" destination="2" eventType="editingDidEndOnExit" id="FCM-vF-8GE"/>
-                                </connections>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Emotions:" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qSb-Y0-fN5">
-                                <rect key="frame" x="20" y="109" width="280" height="30"/>
-                                <color key="backgroundColor" red="0.015686275437474251" green="0.011764707043766975" blue="0.0078431377187371254" alpha="0.59999999999999998" colorSpace="deviceRGB"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" name="AmericanTypewriter-Condensed" family="American Typewriter" pointSize="15"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                <connections>
-                                    <action selector="retractKeyBoard:" destination="2" eventType="editingDidEndOnExit" id="ca2-Cs-ARK"/>
-                                </connections>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Thoughts:" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gX5-fg-Wo4">
-                                <rect key="frame" x="20" y="147" width="280" height="30"/>
-                                <color key="backgroundColor" red="0.015686275440000001" green="0.011764707040000001" blue="0.0078431377190000002" alpha="0.59999999999999998" colorSpace="deviceRGB"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" name="AmericanTypewriter-Condensed" family="American Typewriter" pointSize="15"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                <connections>
-                                    <action selector="retractKeyBoard:" destination="2" eventType="editingDidEndOnExit" id="POs-C5-nDx"/>
-                                </connections>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Behavior:" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SUk-kQ-Pac">
-                                <rect key="frame" x="20" y="185" width="280" height="30"/>
-                                <color key="backgroundColor" red="0.015686275440000001" green="0.011764707040000001" blue="0.0078431377190000002" alpha="0.59999999999999998" colorSpace="deviceRGB"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" name="AmericanTypewriter-Condensed" family="American Typewriter" pointSize="15"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                <connections>
-                                    <action selector="retractKeyBoard:" destination="2" eventType="editingDidEndOnExit" id="JBF-MS-ZaX"/>
-                                </connections>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Alternative Behavior:" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kwo-bQ-IRm">
-                                <rect key="frame" x="20" y="261" width="280" height="30"/>
-                                <color key="backgroundColor" red="0.015686275440000001" green="0.011764707040000001" blue="0.0078431377190000002" alpha="0.59999999999999998" colorSpace="deviceRGB"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" name="AmericanTypewriter-Condensed" family="American Typewriter" pointSize="15"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                <connections>
-                                    <action selector="retractKeyBoard:" destination="2" eventType="editingDidEndOnExit" id="Jij-Yd-R7Z"/>
-                                </connections>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Alternative Thoughts:" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vhP-jG-2a6">
-                                <rect key="frame" x="20" y="299" width="280" height="30"/>
-                                <color key="backgroundColor" red="0.015686275440000001" green="0.011764707040000001" blue="0.0078431377190000002" alpha="0.59999999999999998" colorSpace="deviceRGB"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" name="AmericanTypewriter-Condensed" family="American Typewriter" pointSize="15"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                <connections>
-                                    <action selector="retractKeyBoard:" destination="2" eventType="editingDidEndOnExit" id="pAI-CT-vGG"/>
-                                </connections>
-                            </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MQ6-ve-gbh">
-                                <rect key="frame" x="227" y="436" width="73" height="44"/>
+                            <textView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" delaysContentTouches="NO" canCancelContentTouches="NO" minimumZoomScale="0.0" maximumZoomScale="0.0" bouncesZoom="NO" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="21">
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="73" id="HgH-MY-oqA"/>
+                                    <constraint firstAttribute="height" constant="88" id="Ikv-jk-tyi"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
-                                <state key="normal" title="Save">
-                                    <color key="titleColor" red="0.19607843137254902" green="0.30980392156862746" blue="0.52156862745098043" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="saveinfo:" destination="2" eventType="touchUpInside" id="YgP-FQ-np6"/>
-                                </connections>
-                            </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Distortions:" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0du-Sp-Fhf">
-                                <rect key="frame" x="20" y="223" width="280" height="30"/>
-                                <color key="backgroundColor" red="0.015686275440000001" green="0.011764707040000001" blue="0.0078431377190000002" alpha="0.59999999999999998" colorSpace="deviceRGB"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" name="AmericanTypewriter-Condensed" family="American Typewriter" pointSize="15"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                <connections>
-                                    <action selector="retractKeyBoard:" destination="2" eventType="editingDidEndOnExit" id="AXd-hQ-tmQ"/>
-                                </connections>
-                            </textField>
+                                <string key="text">Loaded by the first view controller — an instance of FirstViewController — specified in the app delegate.</string>
+                                <fontDescription key="fontDescription" type="system" size="system"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="vhP-jG-2a6" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="1ig-Rq-qJN"/>
-                            <constraint firstItem="KdB-ue-hUx" firstAttribute="top" secondItem="t8y-ZT-Fta" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="5P0-fV-qTc"/>
-                            <constraint firstItem="qSb-Y0-fN5" firstAttribute="top" secondItem="KdB-ue-hUx" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="6gA-Ez-NCO"/>
-                            <constraint firstItem="t8y-ZT-Fta" firstAttribute="top" secondItem="16" secondAttribute="top" constant="33" id="7dV-hn-Yyh"/>
-                            <constraint firstItem="kwo-bQ-IRm" firstAttribute="top" secondItem="0du-Sp-Fhf" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="8KX-5i-g7m"/>
-                            <constraint firstAttribute="bottom" secondItem="MQ6-ve-gbh" secondAttribute="bottom" constant="20" symbolic="YES" type="default" id="8yS-ge-5Mj"/>
-                            <constraint firstItem="qSb-Y0-fN5" firstAttribute="leading" secondItem="16" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="A2Q-GE-qAL"/>
-                            <constraint firstAttribute="trailing" secondItem="gX5-fg-Wo4" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="HQa-WB-Lgl"/>
-                            <constraint firstItem="SUk-kQ-Pac" firstAttribute="top" secondItem="gX5-fg-Wo4" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="Ltw-PI-1lH"/>
-                            <constraint firstItem="20" firstAttribute="top" secondItem="16" secondAttribute="top" constant="4" id="PZf-QU-LDl"/>
-                            <constraint firstItem="CKt-cC-hEc" firstAttribute="top" secondItem="16" secondAttribute="top" type="default" id="QcK-sH-YCE"/>
+                            <constraint firstAttribute="trailing" secondItem="21" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="QBg-X6-fBV"/>
                             <constraint firstAttribute="trailing" secondItem="20" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="Qxj-1L-2Yh"/>
-                            <constraint firstItem="kwo-bQ-IRm" firstAttribute="leading" secondItem="16" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="RKX-YF-N9l"/>
-                            <constraint firstAttribute="trailing" secondItem="qSb-Y0-fN5" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="RwT-wU-U9m"/>
-                            <constraint firstAttribute="trailing" secondItem="kwo-bQ-IRm" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="Sda-eF-g9P"/>
-                            <constraint firstAttribute="trailing" secondItem="MQ6-ve-gbh" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="TbH-yO-4Bh"/>
                             <constraint firstItem="20" firstAttribute="leading" secondItem="16" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="Ty9-wx-CyI"/>
-                            <constraint firstItem="CKt-cC-hEc" firstAttribute="bottom" secondItem="16" secondAttribute="bottom" type="default" id="VLO-IX-bek"/>
-                            <constraint firstItem="SUk-kQ-Pac" firstAttribute="leading" secondItem="16" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="XC8-dd-rYb"/>
-                            <constraint firstItem="gX5-fg-Wo4" firstAttribute="top" secondItem="qSb-Y0-fN5" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="bR6-uT-czp"/>
-                            <constraint firstItem="CKt-cC-hEc" firstAttribute="trailing" secondItem="16" secondAttribute="trailing" type="default" id="hRJ-Gh-myB"/>
-                            <constraint firstItem="KdB-ue-hUx" firstAttribute="leading" secondItem="16" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="hqU-ji-zXQ"/>
-                            <constraint firstAttribute="trailing" secondItem="t8y-ZT-Fta" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="i2r-hz-Hly"/>
-                            <constraint firstItem="CKt-cC-hEc" firstAttribute="leading" secondItem="16" secondAttribute="leading" type="default" id="lHm-PS-2kW"/>
-                            <constraint firstAttribute="trailing" secondItem="KdB-ue-hUx" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="ojm-K1-KHy"/>
-                            <constraint firstItem="t8y-ZT-Fta" firstAttribute="leading" secondItem="16" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="qq9-Sl-8VY"/>
-                            <constraint firstItem="gX5-fg-Wo4" firstAttribute="leading" secondItem="16" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="s8t-XF-yuJ"/>
-                            <constraint firstItem="vhP-jG-2a6" firstAttribute="leading" secondItem="16" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="tUc-fO-eXX"/>
-                            <constraint firstItem="0du-Sp-Fhf" firstAttribute="leading" secondItem="16" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="uIa-7j-OdE"/>
-                            <constraint firstAttribute="trailing" secondItem="SUk-kQ-Pac" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="wHP-QI-k9A"/>
-                            <constraint firstItem="0du-Sp-Fhf" firstAttribute="top" secondItem="SUk-kQ-Pac" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="yyH-Ky-6IJ"/>
-                            <constraint firstItem="vhP-jG-2a6" firstAttribute="top" secondItem="kwo-bQ-IRm" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="zQJ-fn-FLX"/>
-                            <constraint firstAttribute="trailing" secondItem="0du-Sp-Fhf" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="zWr-8r-lU8"/>
+                            <constraint firstItem="21" firstAttribute="leading" secondItem="16" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="Zmm-k2-2L7"/>
+                            <constraint firstItem="21" firstAttribute="top" secondItem="20" secondAttribute="bottom" constant="40" type="user" id="jX0-Wi-kmb"/>
+                            <constraint firstAttribute="centerY" secondItem="21" secondAttribute="centerY" type="user" id="yWk-L2-m9F"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Entry" image="first" id="7"/>
-                    <connections>
-                        <outlet property="alternativebehavior" destination="kwo-bQ-IRm" id="z1y-lc-q2a"/>
-                        <outlet property="alternativethoughts" destination="vhP-jG-2a6" id="EAB-Gr-wy5"/>
-                        <outlet property="behavior" destination="SUk-kQ-Pac" id="Ak6-Lk-EIC"/>
-                        <outlet property="distortions" destination="0du-Sp-Fhf" id="wvQ-Nq-f7f"/>
-                        <outlet property="emotions" destination="qSb-Y0-fN5" id="682-GI-qdu"/>
-                        <outlet property="name" destination="t8y-ZT-Fta" id="MHD-eY-BW3"/>
-                        <outlet property="situation" destination="KdB-ue-hUx" id="xh8-Hs-epM"/>
-                        <outlet property="thoughts" destination="gX5-fg-Wo4" id="xZN-Us-mzy"/>
-                    </connections>
+                    <tabBarItem key="tabBarItem" title="First" image="first" id="7"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="10" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="513" y="180"/>
+            <point key="canvasLocation" x="653" y="-138"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="ysW-oW-hDv">
-            <objects>
-                <viewController id="z1f-vU-zY6" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="K9h-cQ-dB0">
-                        <rect key="frame" x="0.0" y="20" width="320" height="499"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="wood.png" translatesAutoresizingMaskIntoConstraints="NO" id="mcI-f4-F7U">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="499"/>
-                            </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="21o-Kz-Eeq">
-                                <rect key="frame" x="20" y="37" width="280" height="442"/>
-                                <color key="backgroundColor" red="0.015686275440000001" green="0.011764707040000001" blue="0.0078431377190000002" alpha="0.59999999999999998" colorSpace="deviceRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="442" id="hgy-Ch-5T5"/>
-                                </constraints>
-                                <string key="text">Common Thought Distortions Examples:
-
-FORTUNE-TELLING: This occurs when we predict that things will turn out badly. However, we cannot predict the future because we do not have a magic ball!
-
-MIND-READING: This happens when we believe that we know what others are thinking and we assume that they are thinking the worst of us. However, we cannot mind-read so we do not know what others are thinking!
-
-LABELING: Sometimes we talk to ourselves in a mean way and we use a single negative word to describe ourselves. However, this kind of thinking is unfair and we are too complex to be summed up in a single word!
-
-FILTERING: This happens when we take note of all the bad things that happen, but ignore any good things.
-
-OVERESTIMATING: This happens when we believe that something that is unlikely to occur is actually about to happen.
-
-CATASTROPHIZING: This is when we imagine the worst possible thing is about to happen and we will be unable to cope with it.
-
-OVERGENERALIZING: This is when we use words like always or never to describe situations or events. This is a problematic way of thinking because it does not take all situation or events into account.
-</string>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" name="AmericanTypewriter-Condensed" family="American Typewriter" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="More Info" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" useAutomaticPreferredMaxLayoutWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vXt-ju-7Uj">
-                                <rect key="frame" x="108" y="4" width="105" height="25"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="105" id="it1-qf-iRr"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="AmericanTypewriter-CondensedLight" family="American Typewriter" pointSize="23"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="mcI-f4-F7U" firstAttribute="top" secondItem="K9h-cQ-dB0" secondAttribute="top" type="default" id="38t-Uc-x29"/>
-                            <constraint firstItem="mcI-f4-F7U" firstAttribute="bottom" secondItem="K9h-cQ-dB0" secondAttribute="bottom" type="default" id="BWe-dS-6p8"/>
-                            <constraint firstItem="21o-Kz-Eeq" firstAttribute="leading" secondItem="K9h-cQ-dB0" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="N9e-Xf-IOn"/>
-                            <constraint firstItem="vXt-ju-7Uj" firstAttribute="centerX" secondItem="21o-Kz-Eeq" secondAttribute="centerX" type="default" id="UoY-8A-3tF"/>
-                            <constraint firstItem="mcI-f4-F7U" firstAttribute="trailing" secondItem="K9h-cQ-dB0" secondAttribute="trailing" type="default" id="jTT-GU-Rf6"/>
-                            <constraint firstItem="21o-Kz-Eeq" firstAttribute="top" secondItem="vXt-ju-7Uj" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="lxH-Ma-psl"/>
-                            <constraint firstAttribute="trailing" secondItem="21o-Kz-Eeq" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="vMd-Lf-kqV"/>
-                            <constraint firstItem="mcI-f4-F7U" firstAttribute="leading" secondItem="K9h-cQ-dB0" secondAttribute="leading" type="default" id="wcX-Ee-Xir"/>
-                            <constraint firstAttribute="bottom" secondItem="21o-Kz-Eeq" secondAttribute="bottom" constant="20" symbolic="YES" type="default" id="yFE-2F-8eD"/>
-                        </constraints>
-                    </view>
-                    <tabBarItem key="tabBarItem" systemItem="more" id="9P7-If-KMO"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="O5D-uW-zP8" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1237" y="180"/>
-        </scene>
-        <!--Second-->
+        <!--class Prefix:identifier Second View Controller - Second-->
         <scene sceneID="13">
             <objects>
                 <viewController title="Second" id="3" customClass="SecondViewController" sceneMemberID="viewController">
@@ -248,67 +51,36 @@ OVERGENERALIZING: This is when we use words like always or never to describe sit
                         <rect key="frame" x="0.0" y="20" width="320" height="499"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="wood.png" translatesAutoresizingMaskIntoConstraints="NO" id="fj3-Ov-5WV">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="499"/>
-                            </imageView>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Thought Log" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" useAutomaticPreferredMaxLayoutWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ahx-O4-fbg">
-                                <rect key="frame" x="20" y="4" width="280" height="25"/>
-                                <fontDescription key="fontDescription" name="AmericanTypewriter-CondensedLight" family="American Typewriter" pointSize="23"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Second View" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="22">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qlJ-kk-XcW">
-                                <rect key="frame" x="20" y="36" width="280" height="392"/>
-                                <color key="backgroundColor" red="0.015686275440000001" green="0.011764707040000001" blue="0.0078431377190000002" alpha="0.59999999999999998" colorSpace="deviceRGB"/>
+                            <textView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" delaysContentTouches="NO" canCancelContentTouches="NO" minimumZoomScale="0.0" maximumZoomScale="0.0" bouncesZoom="NO" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="23">
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="392" id="TWu-GR-YJB"/>
+                                    <constraint firstAttribute="height" constant="88" id="cQR-IW-sY8"/>
                                 </constraints>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" name="AmericanTypewriter-Condensed" family="American Typewriter" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" returnKeyType="done"/>
+                                <string key="text">Loaded by the second view controller — an instance of SecondViewController — specified in the app delegate.</string>
+                                <fontDescription key="fontDescription" type="system" size="system"/>
+                                <textInputTraits key="textInputTraits"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UDd-UZ-tpH">
-                                <rect key="frame" x="227" y="436" width="73" height="44"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="73" id="aMm-lp-SDB"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Refresh">
-                                    <color key="titleColor" red="0.19607843137254902" green="0.30980392156862746" blue="0.52156862745098043" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="retrieveinfo:" destination="3" eventType="touchUpInside" id="2xd-IF-DQ3"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="qlJ-kk-XcW" firstAttribute="leading" secondItem="17" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="6jT-dG-E8a"/>
-                            <constraint firstAttribute="trailing" secondItem="UDd-UZ-tpH" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="6uv-CX-fW8"/>
-                            <constraint firstItem="ahx-O4-fbg" firstAttribute="top" secondItem="17" secondAttribute="top" constant="4" id="93M-Ku-bXT"/>
-                            <constraint firstAttribute="trailing" secondItem="ahx-O4-fbg" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="APO-Aq-t3b"/>
-                            <constraint firstItem="UDd-UZ-tpH" firstAttribute="top" secondItem="qlJ-kk-XcW" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="LA8-Dc-ZvR"/>
-                            <constraint firstItem="fj3-Ov-5WV" firstAttribute="top" secondItem="17" secondAttribute="top" type="default" id="Lkf-3z-m2x"/>
-                            <constraint firstItem="fj3-Ov-5WV" firstAttribute="trailing" secondItem="17" secondAttribute="trailing" type="default" id="TZd-zn-inG"/>
-                            <constraint firstItem="fj3-Ov-5WV" firstAttribute="bottom" secondItem="17" secondAttribute="bottom" type="default" id="WGV-jc-FYK"/>
-                            <constraint firstAttribute="trailing" secondItem="qlJ-kk-XcW" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="Y5h-KU-lck"/>
-                            <constraint firstAttribute="bottom" secondItem="UDd-UZ-tpH" secondAttribute="bottom" constant="20" symbolic="YES" type="default" id="gTS-nd-03V"/>
-                            <constraint firstItem="ahx-O4-fbg" firstAttribute="leading" secondItem="17" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="rdd-gt-EPD"/>
-                            <constraint firstItem="fj3-Ov-5WV" firstAttribute="leading" secondItem="17" secondAttribute="leading" type="default" id="rmX-5G-VQ8"/>
+                            <constraint firstItem="22" firstAttribute="leading" secondItem="17" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="0q6-IA-e8m"/>
+                            <constraint firstAttribute="trailing" secondItem="23" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="fR4-wH-Ih7"/>
+                            <constraint firstItem="23" firstAttribute="leading" secondItem="17" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="fzb-YA-SeR"/>
+                            <constraint firstAttribute="centerY" secondItem="23" secondAttribute="centerY" type="user" id="llH-eD-iPS"/>
+                            <constraint firstAttribute="trailing" secondItem="22" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="pc3-9Y-W42"/>
+                            <constraint firstItem="23" firstAttribute="top" secondItem="22" secondAttribute="bottom" constant="40" type="user" id="yUx-Ee-KEk"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Log" image="second" id="6"/>
-                    <connections>
-                        <outlet property="resultview" destination="qlJ-kk-XcW" id="2Ug-Vv-JzD"/>
-                    </connections>
+                    <tabBarItem key="tabBarItem" title="Second" image="second" id="6"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="12" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="873" y="180"/>
+            <point key="canvasLocation" x="653" y="498"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="15">
@@ -323,7 +95,6 @@ OVERGENERALIZING: This is when we use words like always or never to describe sit
                     <connections>
                         <segue destination="2" kind="relationship" relationship="viewControllers" id="26"/>
                         <segue destination="3" kind="relationship" relationship="viewControllers" id="27"/>
-                        <segue destination="z1f-vU-zY6" kind="relationship" relationship="viewControllers" id="Mdu-Ey-oDa"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="14" sceneMemberID="firstResponder"/>
@@ -334,7 +105,6 @@ OVERGENERALIZING: This is when we use words like always or never to describe sit
     <resources>
         <image name="first" width="16" height="16"/>
         <image name="second" width="16" height="16"/>
-        <image name="wood.png" width="640" height="1136"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
